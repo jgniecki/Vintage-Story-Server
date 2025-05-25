@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   vintagestory:
-    image: bubanga/vintagestory_server:1.20.10
+    image: bubanga/vintagestory_server:1.19.5
     ports:
       - "42420:42420"
     restart: unless-stopped
