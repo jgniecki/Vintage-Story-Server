@@ -3,7 +3,7 @@ FROM debian:12
 EXPOSE 42420
 
 # Variables
-ARG VERSION=1.22.0
+ARG VERSION=1.22.1
 ARG FILENAME=vs_server_linux-x64_${VERSION}.tar.gz
 ARG USERNAME=vintagestory
 ARG VSPATH=/home/vintagestory/server
