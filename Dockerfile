@@ -18,7 +18,7 @@ RUN apt-get update -q -y && \
     dpkg -i packages-microsoft-prod.deb && \
     rm packages-microsoft-prod.deb && \
     apt-get update && \
-    apt-get install -y aspnetcore-runtime-8.0
+    apt-get install -y aspnetcore-runtime-10.0
 
 # Create user and directories
 RUN useradd -ms /bin/bash ${USERNAME} && \
